@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,14 +24,84 @@
   color: white;
 }
 
-.App-link {
+.hero {
+  height: 90vh;
+  background-color: #61dafb;
+}
+
+.hero-wrapper {
+  margin: 0rem 10rem;
+  height: 100%;
+  display: flex;
+}
+
+.image {
+  padding-top: 40px;
+  height: 90%;
+}
+
+.hero-text-wrapper {
+  padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: rgb(255, 255, 255);
+  height: 100%;
+  flex: 5;
+}
+
+.hero-image {
+  background: rgb(255, 255, 255);
+  height: 100%;
+  flex: 5;
+}
+
+.footer-section {
+  height: 10vh;
+  background-color: green;
+}
+
+.app .App-link {
   color: #61dafb;
+}
+
+.header-text {
+  color: black;
+
+  font-size: 5rem;
+  text-align: left;
+}
+
+.hero-text {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+
+.preregister-button {
+  background-color: black;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 40px;
+  height: 4rem;
+  width: 30rem;
+  border-radius: 1rem;
+  border: none;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
