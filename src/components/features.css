@@ -1,0 +1,15 @@
+.featureWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    background-color: aqua;
+    width: auto;
+    margin: 0rem 10rem;
+}
+
+.container {
+    width: 10rem;
+    height: 5rem;
+    background-color: blue;
+}
