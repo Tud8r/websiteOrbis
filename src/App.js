@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
 import Hero from './Components/hero';
-
+import Features from './Components/features';
 
 
 

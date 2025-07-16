@@ -13,8 +13,13 @@
   }
 }
 
+body {
+  background-color: #111111;
+}
+
+
 .App-header {
-  background-color: #282c34;
+  background-color: #222222;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -35,18 +40,9 @@
   color: #61dafb;
 }
 
-.header-text {
-  color: black;
 
-  font-size: 5rem;
-  text-align: left;
-}
 
-.hero-text {
-  color: black;
-  font-size: 30px;
-  text-align: left;
-}
+
 
 .text-container {
   display: flex;
@@ -56,16 +52,7 @@
   padding-top: 20px;
 }
 
-.preregister-button {
-  background-color: black;
-  font-size: 1.5rem;
-  color: white;
-  margin-top: 40px;
-  height: 4rem;
-  width: 30rem;
-  border-radius: 1rem;
-  border: none;
-}
+
 
 @keyframes App-logo-spin {
   from {

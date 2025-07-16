@@ -1,12 +1,19 @@
+@media (max-width: 900px) {
+    .hero-wrapper {
+        flex-direction: column;
+    }
+}
+
 .hero {
     height: 90vh;
-    background-color: #61dafb;
 }
 
 .hero-wrapper {
     margin: 0rem 10rem;
     height: 100%;
+
     display: flex;
+
 }
 
 .image {
@@ -19,13 +26,42 @@
     display: flex;
     flex-direction: column;
     color: white;
-    background: rgb(255, 255, 255);
     height: 100%;
     flex: 5;
 }
 
 .hero-image {
-    background: rgb(255, 255, 255);
+
     height: 100%;
     flex: 5;
+}
+
+.header-text {
+    color: #F0F0F0;
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+    text-align: left;
+}
+
+.hero-text {
+
+    color: #AAAAAA;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+
+.preregister-button {
+
+    font-family: 'Inter', sans-serif;
+    background-color: #00C27A;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F0F0F0;
+    margin-top: 40px;
+    height: 4rem;
+    width: 30rem;
+    border-radius: 1rem;
+    border: none;
 }
