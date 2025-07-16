@@ -1,0 +1,31 @@
+.hero {
+    height: 90vh;
+    background-color: #61dafb;
+}
+
+.hero-wrapper {
+    margin: 0rem 10rem;
+    height: 100%;
+    display: flex;
+}
+
+.image {
+    padding-top: 40px;
+    height: 90%;
+}
+
+.hero-text-wrapper {
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    flex: 5;
+}
+
+.hero-image {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    flex: 5;
+}
