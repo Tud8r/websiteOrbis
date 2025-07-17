@@ -18,6 +18,7 @@ body {
 }
 
 
+
 .App-header {
   background-color: #222222;
   min-height: 10vh;
@@ -44,13 +45,6 @@ body {
 
 
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-right: 200px;
-  padding-top: 20px;
-}
 
 
 

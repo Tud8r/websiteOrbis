@@ -9,7 +9,7 @@ export default function Features() {
             <div className='container'>
                 <div className='textWrapper'>
                     <h1 className='titleText'>{text}</h1>
-                    <div className='subTitle'>{paragraph}</div>
+                    <p className='subTitle'>{paragraph}</p>
                 </div>
             </div>
         )
@@ -26,7 +26,7 @@ export default function Features() {
                     paragraph="For each task you finish, a tree appears on your personal planet.
                     The more consistent you are, the greener your world becomes." />
                 <Container
-                    text="Track Your Eco-Impact"
+                    text={<>Track Your<br />Eco-Impact</>}
                     paragraph="Watch your planet grow and see your streaks, productivity levels, and eco-score. Turn your habits into a living, growing forest." />
                 <Container
                     text="Connect with the Community"

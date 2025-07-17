@@ -1,0 +1,38 @@
+.wrapper {
+    padding-top: 5rem;
+}
+
+.headText {
+    padding: 40px;
+    color: #00C27A;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.info {
+    max-width: 1600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+    background-color: #00C27A;
+    color: #F0F0F0;
+
+    flex-direction: column;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.omg {
+    background-color: #224639;
+    height: 200px;
+    width: 400rem;
+}
+
+img {}

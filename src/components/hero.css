@@ -1,37 +1,55 @@
-@media (max-width: 900px) {
-    .hero-wrapper {
-        flex-direction: column;
-    }
+.hero {
+
+    width: 100%;
 }
 
-.hero {
-    height: 90vh;
+h1 {
+    margin-top: 20px;
 }
 
 .hero-wrapper {
-    margin: 0rem 10rem;
-    height: 100%;
 
+    /* padding: 1rem 3rem 0rem 5rem; */
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
+
 
 .image {
-    padding-top: 40px;
-    height: 90%;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
 }
 
+
+
+
 .hero-text-wrapper {
+
     padding-left: 5rem;
     display: flex;
     flex-direction: column;
     color: white;
     height: 100%;
+    width: 50%;
+
+    max-width: 700px;
     flex: 5;
 }
 
-.hero-image {
 
+.hero-image {
+    max-width: 670px;
+    display: flex;
     height: 100%;
     flex: 5;
 }
@@ -44,12 +62,21 @@
 }
 
 .hero-text {
-
     color: #AAAAAA;
     font-size: 30px;
     text-align: left;
 }
 
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
 
 
 .preregister-button {
@@ -61,7 +88,83 @@
     color: #F0F0F0;
     margin-top: 40px;
     height: 4rem;
-    width: 30rem;
+    width: 100%;
     border-radius: 1rem;
     border: none;
+}
+
+.preregister-button-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hero-wrapper {
+        flex-direction: column;
+    }
+
+    .image {
+        max-width: 90%;
+    }
+
+
+
+    .text-container {
+
+        padding-right: 0px;
+
+
+    }
+
+    .hero-text-wrapper {
+        width: 90%;
+        padding-left: 0rem;
+
+
+    }
+
+    .header-text {
+
+        font-family: 'Inter', sans-serif;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .hero-text {
+
+
+        color: #AAAAAA;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .preregister-button {
+        display: none;
+        font-family: 'Inter', sans-serif;
+        background-color: #00C27A;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #F0F0F0;
+        margin-top: 40px;
+        height: 4rem;
+        width: 100%;
+        border-radius: 1rem;
+        border: none;
+
+    }
+
+    .preregister-button-mobile {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background-color: #00C27A;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #F0F0F0;
+        margin-top: 70px;
+
+        height: 4rem;
+        width: 90%;
+        border-radius: 1rem;
+        border: none;
+
+    }
 }

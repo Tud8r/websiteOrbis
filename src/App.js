@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './App.css';
 import Hero from './Components/hero';
 import Features from './Components/features';
-
+import Motive from './Components/motive'
 
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <main >
         <Hero />
         <Features />
+        <Motive />
+
       </main >
       {/* <footer className='footer-section'> 
       </footer>*/}
