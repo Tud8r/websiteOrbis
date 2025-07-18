@@ -5,8 +5,8 @@ import './App.css';
 import Hero from './Components/hero';
 import Features from './Components/features';
 import Motive from './Components/motive'
-
-
+import Points from './Components/points';
+import PreRegister from './Components/preregister';
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,8 @@ function App() {
         <Hero />
         <Features />
         <Motive />
-
+        <Points />
+        <PreRegister />
       </main >
       {/* <footer className='footer-section'> 
       </footer>*/}

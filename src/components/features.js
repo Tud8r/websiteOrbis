@@ -19,14 +19,14 @@ export default function Features() {
             <h1 className='headText'>How it works</h1>
             <div className='containerWrapper'>
                 <Container
-                    text="Complete Meaningful Tasks"
+                    text={<>Complete Meaningful Tasks</>}
                     paragraph="Stay productive by completing daily tasks — whether it's studying, exercising, or helping others. Every task moves you forward." />
                 <Container
                     text="Grow Your Virtual Forest"
                     paragraph="For each task you finish, a tree appears on your personal planet.
                     The more consistent you are, the greener your world becomes." />
                 <Container
-                    text={<>Track Your<br />Eco-Impact</>}
+                    text={<>Track Your Eco-Impact</>}
                     paragraph="Watch your planet grow and see your streaks, productivity levels, and eco-score. Turn your habits into a living, growing forest." />
                 <Container
                     text="Connect with the Community"

@@ -15,8 +15,8 @@ export default function Motive() {
                     Our mission is to help people build sustainable habits by making eco-friendly actions feel visual and rewarding. As students, we wanted to create something that combines productivity, climate awareness, and a bit of fun.
 
                     Every completed task helps your digital planet grow—because real change starts with small steps.</p>
-                <div className='omg'>
-
+                <div className='imgWrapper'>
+                    <img className="featureImage" src={fetureImage}></img>
                 </div>
             </div>
         </section>
